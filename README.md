@@ -162,5 +162,3 @@ make GPU_ARCH="-gpu=cc90,mem:managed"
 
 - RNGonGPU is included as a Git submodule.
 - RNGonGPU must be built before compiling the main code.
-- The final executables link against both RNGonGPU and GPU-NTT libraries.
-- The `mem:managed` option is used for CUDA Unified Memory support.
